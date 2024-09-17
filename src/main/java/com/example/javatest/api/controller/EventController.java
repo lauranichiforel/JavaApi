@@ -51,4 +51,10 @@ public class EventController {
             @RequestParam(required = false) LocalDateTime startTime) {
         return eventService.getFilteredEvents(title, startTime);
     }
+
+    @GetMapping("/getAllEvents")
+    public List<Event> getAllEvents(){
+        return eventService.getAllEvents();
+    }
+
 }
