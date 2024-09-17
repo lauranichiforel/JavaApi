@@ -1,4 +1,4 @@
-package org.example.javatest;
+package com.example.javatest;
 
 import com.example.javatest.api.model.Event;
 import com.example.javatest.repository.EventRepository;
